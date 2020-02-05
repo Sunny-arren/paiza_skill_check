@@ -1,4 +1,5 @@
 # Cランク069:お祭りの日付
+
 starting_ymd = gets(chomp:true).split(" ").map(&:to_i)
 starting_y_origin = starting_ymd[0]
 starting_m = starting_ymd[1]
